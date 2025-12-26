@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Connect the Database
+// Connect the Databasesss
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("Database Connection Established"))
